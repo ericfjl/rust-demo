@@ -1,4 +1,6 @@
 mod traffic_light;
+mod utils;
+mod shape;
 fn bubble_sort<T: PartialOrd>(mut arr: Vec<T>) -> Vec<T> {
     let n = arr.len();
     for i in 0..n {
@@ -23,5 +25,8 @@ fn test1(){
 }
 fn main() {
 
-    traffic_light::start();
+    test1();
+    // traffic_light::start();
+    // utils::test();
+    // shape::test();
 }
